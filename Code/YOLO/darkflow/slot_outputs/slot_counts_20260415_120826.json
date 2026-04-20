@@ -1,0 +1,1191 @@
+{
+  "config_path": "C:\\Users\\tanu\\Desktop\\clean project - Copy (2)\\smart_traffic_management_v8\\Code\\YOLO\\darkflow\\videos\\roi_config.json",
+  "model": "yolov8n.pt",
+  "confidence": 0.35,
+  "duration_seconds": 240,
+  "window_seconds": 10,
+  "step_seconds": 10,
+  "sample_fps": 1.0,
+  "cycle_seconds": 120,
+  "min_green": 10,
+  "max_green": 60,
+  "slots": [
+    {
+      "slot_index": 0,
+      "slot_start_sec": 0,
+      "slot_end_sec": 10,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 2,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 16,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 3,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 5,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 2,
+          "truck": 4,
+          "motorcycle": 1,
+          "total": 19,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 13,
+        "east": 38,
+        "south": 21,
+        "west": 48
+      }
+    },
+    {
+      "slot_index": 1,
+      "slot_start_sec": 10,
+      "slot_end_sec": 20,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 12,
+          "bus": 2,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 16,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 4,
+          "bus": 2,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 13,
+          "bus": 3,
+          "truck": 2,
+          "motorcycle": 1,
+          "total": 19,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 17,
+        "east": 37,
+        "south": 24,
+        "west": 42
+      }
+    },
+    {
+      "slot_index": 2,
+      "slot_start_sec": 20,
+      "slot_end_sec": 30,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 2,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 15,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 5,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 14,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 13,
+        "east": 43,
+        "south": 26,
+        "west": 38
+      }
+    },
+    {
+      "slot_index": 3,
+      "slot_start_sec": 30,
+      "slot_end_sec": 40,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 2,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 15,
+          "bus": 1,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 5,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 5,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 3,
+          "truck": 3,
+          "motorcycle": 1,
+          "total": 19,
+          "frames_sampled": 9,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 13,
+        "east": 41,
+        "south": 17,
+        "west": 49
+      }
+    },
+    {
+      "slot_index": 4,
+      "slot_start_sec": 40,
+      "slot_end_sec": 50,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 1,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 17,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 21,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 6,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 13,
+          "bus": 2,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 17,
+        "east": 44,
+        "south": 20,
+        "west": 39
+      }
+    },
+    {
+      "slot_index": 5,
+      "slot_start_sec": 50,
+      "slot_end_sec": 60,
+      "counts": {
+        "north": {
+          "car": 1,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 1,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 13,
+          "bus": 1,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 16,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 5,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 5,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 3,
+          "truck": 1,
+          "motorcycle": 1,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 12,
+        "east": 43,
+        "south": 18,
+        "west": 47
+      }
+    },
+    {
+      "slot_index": 6,
+      "slot_start_sec": 60,
+      "slot_end_sec": 70,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 1,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 15,
+          "bus": 0,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 6,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 8,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 11,
+          "bus": 2,
+          "truck": 3,
+          "motorcycle": 1,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 17,
+        "east": 36,
+        "south": 25,
+        "west": 42
+      }
+    },
+    {
+      "slot_index": 7,
+      "slot_start_sec": 70,
+      "slot_end_sec": 80,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 1,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 3,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 13,
+          "bus": 1,
+          "truck": 4,
+          "motorcycle": 0,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 4,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 13,
+          "bus": 2,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 16,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 17,
+        "east": 47,
+        "south": 16,
+        "west": 40
+      }
+    },
+    {
+      "slot_index": 8,
+      "slot_start_sec": 80,
+      "slot_end_sec": 90,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 3,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 13,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 15,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 6,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 13,
+          "bus": 3,
+          "truck": 1,
+          "motorcycle": 1,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 14,
+        "east": 37,
+        "south": 23,
+        "west": 46
+      }
+    },
+    {
+      "slot_index": 9,
+      "slot_start_sec": 90,
+      "slot_end_sec": 100,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 3,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 13,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 14,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 4,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 2,
+          "truck": 3,
+          "motorcycle": 1,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 17,
+        "east": 35,
+        "south": 17,
+        "west": 51
+      }
+    },
+    {
+      "slot_index": 10,
+      "slot_start_sec": 100,
+      "slot_end_sec": 110,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 2,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 15,
+          "bus": 1,
+          "truck": 5,
+          "motorcycle": 0,
+          "total": 21,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 2,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 13,
+          "bus": 2,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 12,
+        "east": 49,
+        "south": 19,
+        "west": 40
+      }
+    },
+    {
+      "slot_index": 11,
+      "slot_start_sec": 110,
+      "slot_end_sec": 120,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 3,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 14,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 5,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 14,
+          "bus": 3,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 19,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 14,
+        "east": 40,
+        "south": 23,
+        "west": 43
+      }
+    },
+    {
+      "slot_index": 12,
+      "slot_start_sec": 120,
+      "slot_end_sec": 130,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 2,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 14,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 5,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 11,
+          "bus": 2,
+          "truck": 2,
+          "motorcycle": 2,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 13,
+        "east": 43,
+        "south": 24,
+        "west": 40
+      }
+    },
+    {
+      "slot_index": 13,
+      "slot_start_sec": 130,
+      "slot_end_sec": 140,
+      "counts": {
+        "north": {
+          "car": 4,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 5,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 17,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 21,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 7,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 9,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 14,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 18,
+        "east": 45,
+        "south": 25,
+        "west": 32
+      }
+    },
+    {
+      "slot_index": 14,
+      "slot_start_sec": 140,
+      "slot_end_sec": 150,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 2,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 13,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 4,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 6,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 11,
+          "bus": 3,
+          "truck": 3,
+          "motorcycle": 1,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 13,
+        "east": 40,
+        "south": 22,
+        "west": 45
+      }
+    },
+    {
+      "slot_index": 15,
+      "slot_start_sec": 150,
+      "slot_end_sec": 160,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 16,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 3,
+          "bus": 1,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 6,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 11,
+          "bus": 3,
+          "truck": 3,
+          "motorcycle": 1,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 17,
+        "east": 34,
+        "south": 24,
+        "west": 45
+      }
+    },
+    {
+      "slot_index": 16,
+      "slot_start_sec": 160,
+      "slot_end_sec": 170,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 19,
+          "bus": 1,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 22,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 3,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 3,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 1,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 15,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 18,
+        "east": 49,
+        "south": 14,
+        "west": 39
+      }
+    },
+    {
+      "slot_index": 17,
+      "slot_start_sec": 170,
+      "slot_end_sec": 180,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 2,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 14,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 5,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 1,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 13,
+        "east": 43,
+        "south": 23,
+        "west": 41
+      }
+    },
+    {
+      "slot_index": 18,
+      "slot_start_sec": 180,
+      "slot_end_sec": 190,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 15,
+          "bus": 1,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 5,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 16,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 19,
+        "east": 39,
+        "south": 23,
+        "west": 39
+      }
+    },
+    {
+      "slot_index": 19,
+      "slot_start_sec": 190,
+      "slot_end_sec": 200,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 0,
+          "truck": 0,
+          "motorcycle": 0,
+          "total": 3,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 16,
+          "bus": 2,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 20,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 6,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 8,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 13,
+          "bus": 3,
+          "truck": 2,
+          "motorcycle": 1,
+          "total": 19,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 14,
+        "east": 41,
+        "south": 23,
+        "west": 42
+      }
+    },
+    {
+      "slot_index": 20,
+      "slot_start_sec": 200,
+      "slot_end_sec": 210,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 3,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 15,
+          "bus": 1,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 6,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 8,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 2,
+          "truck": 3,
+          "motorcycle": 1,
+          "total": 18,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 16,
+        "east": 38,
+        "south": 24,
+        "west": 42
+      }
+    },
+    {
+      "slot_index": 21,
+      "slot_start_sec": 210,
+      "slot_end_sec": 220,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 14,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 16,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 4,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 5,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 16,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 18,
+        "east": 39,
+        "south": 20,
+        "west": 43
+      }
+    },
+    {
+      "slot_index": 22,
+      "slot_start_sec": 220,
+      "slot_end_sec": 230,
+      "counts": {
+        "north": {
+          "car": 2,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 3,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 15,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 5,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 7,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 12,
+          "bus": 3,
+          "truck": 2,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 16,
+        "east": 37,
+        "south": 24,
+        "west": 43
+      }
+    },
+    {
+      "slot_index": 23,
+      "slot_start_sec": 230,
+      "slot_end_sec": 240,
+      "counts": {
+        "north": {
+          "car": 3,
+          "bus": 0,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 4,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "east": {
+          "car": 13,
+          "bus": 1,
+          "truck": 3,
+          "motorcycle": 0,
+          "total": 17,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "south": {
+          "car": 3,
+          "bus": 1,
+          "truck": 1,
+          "motorcycle": 0,
+          "total": 5,
+          "frames_sampled": 10,
+          "method": "max_over_samples"
+        },
+        "west": {
+          "car": 14,
+          "bus": 2,
+          "truck": 4,
+          "motorcycle": 1,
+          "total": 21,
+          "frames_sampled": 9,
+          "method": "max_over_samples"
+        }
+      },
+      "green_allocation_sec": {
+        "north": 16,
+        "east": 38,
+        "south": 20,
+        "west": 46
+      }
+    }
+  ],
+  "csv_output": "C:\\Users\\tanu\\Desktop\\clean project - Copy (2)\\smart_traffic_management_v8\\Code\\YOLO\\darkflow\\slot_outputs\\slot_counts_20260415_120826.csv"
+}

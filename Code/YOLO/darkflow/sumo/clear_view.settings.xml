@@ -1,0 +1,34 @@
+<viewsettings>
+    <viewport zoom="1200" x="300" y="300"/>
+    <delay value="300"/>
+
+    <scheme name="clear_view">
+        <opengl antialiase="0" dither="0"/>
+        <background backgroundColor="242,242,242" showGrid="0" gridXSize="100.00" gridYSize="100.00"/>
+
+        <edges laneEdgeMode="0" scaleMode="0" laneShowBorders="0" showBikeMarkings="0" showLinkDecals="0" showLinkRules="0" showRails="0" hideConnectors="1" widthExaggeration="1.20" minSize="1.50" showDirection="0" showSublanes="0" spreadSuperposed="0">
+            <colorScheme name="uniform">
+                <entry color="60,60,60" name="road"/>
+                <entry color="90,90,90" name="sidewalk"/>
+                <entry color="60,60,60" name="bike lane"/>
+                <entry color="0,0,0,0" name="green verge"/>
+                <entry color="60,60,60" name="waterway"/>
+                <entry color="60,60,60" name="no passenger"/>
+                <entry color="120,120,120" name="closed"/>
+                <entry color="70,70,70" name="connector"/>
+            </colorScheme>
+        </edges>
+
+        <vehicles vehicleMode="10" vehicleQuality="2" minVehicleSize="1.50" vehicleExaggeration="1.40" showBlinker="1" vehicleName_show="0" vehicleName_size="50.00" vehicleName_color="255,255,255">
+            <colorScheme name="uniform">
+                <entry color="255,200,0"/>
+            </colorScheme>
+            <colorScheme name="given/assigned vehicle color">
+                <entry color="255,200,0"/>
+            </colorScheme>
+            <colorScheme name="given/assigned type color">
+                <entry color="255,200,0"/>
+            </colorScheme>
+        </vehicles>
+    </scheme>
+</viewsettings>

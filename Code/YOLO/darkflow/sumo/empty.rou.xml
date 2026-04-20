@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<!-- Slow traffic profile (slightly increased from ultra-slow) -->
+	<vType id="passenger" vClass="passenger" accel="0.35" decel="3.2" sigma="0.5" length="5.0" minGap="3.0" maxSpeed="4.20"/>
+	<vType id="motorcycle" vClass="motorcycle" accel="0.45" decel="3.5" sigma="0.5" length="2.2" minGap="1.4" maxSpeed="4.80"/>
+	<vType id="bus" vClass="bus" accel="0.28" decel="3.0" sigma="0.5" length="12.0" minGap="3.8" maxSpeed="3.40"/>
+	<vType id="truck" vClass="truck" accel="0.24" decel="2.8" sigma="0.5" length="8.0" minGap="3.8" maxSpeed="3.00"/>
+</routes>
